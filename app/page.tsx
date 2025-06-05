@@ -10,7 +10,6 @@ import Skills from "@/components/skills"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import MouseSpotlight from "@/components/mouse-spotlight"
-import CustomCursor from "@/components/custom-cursor"
 import SmoothScroll from "@/components/smooth-scroll"
 import PageLoader from "@/components/page-loader"
 import ScrollProgress from "@/components/scroll-progress"
@@ -22,7 +21,6 @@ export default function Home() {
   return (
     <>
       <PageLoader />
-      <CustomCursor />
       <SmoothScroll />
       <ScrollProgress />
       <MoonPhaseIndicator />
